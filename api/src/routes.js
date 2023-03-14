@@ -9,9 +9,9 @@ router.get('/contacts', ContactController.index);
 router.get('/contacts/:id', ContactController.show);
 router.delete('/contacts/:id', ContactController.delete);
 router.post('/contacts/', ContactController.store);
-router.put('/contact/:id', ContactController.update);
+router.put('/contacts/:id', ContactController.update);
 
 router.get('/categories', CategoryController.index);
-router.post('/categorie', CategoryController.store);
+router.post('/categories', CategoryController.store);
 
 module.exports = router;
